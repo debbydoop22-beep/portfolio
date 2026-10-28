@@ -322,6 +322,17 @@
     .chip:nth-child(3n + 2) { color: #603b91; background: linear-gradient(135deg, #dfcaff, #f2cbed); }
     .chip:nth-child(3n) { color: #1b587d; background: linear-gradient(135deg, #b9f0f1, #c6dcff); }
     .chip:hover { transform: translateY(-4px) scale(1.045); filter: saturate(1.12); box-shadow: 0 10px 20px rgba(75,84,162,.22); }
+    /* Blue, pink, and purple gradients for the project cards */
+    .project-card { border-color: rgba(111,133,203,.45); color: #172c5a; background: linear-gradient(132deg, #bfeaff 0%, #c9d8ff 52%, #e8c9f5 100%); box-shadow: 0 12px 28px rgba(83,91,171,.13), inset 0 1px 0 rgba(255,255,255,.62); }
+    .project-card:nth-child(2) { background: linear-gradient(132deg, #c9e9ff 0%, #d8ccff 50%, #f4c9e5 100%); }
+    .project-card:nth-child(3) { background: linear-gradient(132deg, #c3f0f4 0%, #cbd6ff 48%, #edc9ed 100%); }
+    .project-card h3 { color: #19376d; }
+    .project-card p { color: #33476e; }
+    .project-number { color: #3958a5; }
+    .project-tags span { border: 1px solid rgba(255,255,255,.58); color: #334686; background: linear-gradient(135deg, rgba(255,255,255,.68), rgba(223,216,255,.76)); }
+    .project-card:after { color: #fff; background: linear-gradient(145deg, #477fe0, #9b67cf); }
+    .project-card:hover:after { background: linear-gradient(145deg, #e070b3, #705fd1); }
+    .project-card:hover { border-color: rgba(102,116,201,.65); box-shadow: 0 18px 38px rgba(83,81,168,.2); }
   </style>
 </head>
 <body>
@@ -501,6 +512,7 @@
   </script>
 </body>
 </html>
+
 
 
 
