@@ -306,6 +306,22 @@
     .draft-actions { display: flex; flex-wrap: wrap; gap: 11px; }
     .draft-actions .secondary { border: 1px solid #a9c4e7; color: #174b91; background: linear-gradient(135deg, #f1f8ff, #dceaff); }
     .draft-status { display: block; min-height: 1.4em; margin-top: 10px; color: #1b4b86; font-size: .84rem; }
+    /* Colorful story, education, and skill treatments */
+    #about .panel { position: relative; overflow: hidden; border-color: rgba(121,145,207,.42); box-shadow: 0 14px 34px rgba(89,89,166,.12), inset 0 1px 0 rgba(255,255,255,.65); }
+    #about .panel:first-child { background: radial-gradient(circle at 91% 8%, rgba(255,255,255,.75), transparent 25%), linear-gradient(132deg, #bfe6ff 0%, #d8d2ff 52%, #f7cfe8 100%); }
+    #about .panel:first-child h3 { color: #382d74; font-size: 1.45rem; }
+    #about .panel:first-child p { position: relative; z-index: 1; color: #293a66; font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif; font-size: 1.03rem; line-height: 1.82; }
+    #about .panel:last-child { background: radial-gradient(circle at 100% 0%, rgba(255,255,255,.72), transparent 28%), linear-gradient(135deg, #c9edff 0%, #d7dcff 52%, #eccff5 100%); }
+    #about .panel h3 { color: #243d78; }
+    #about .education-item { position: relative; z-index: 1; margin-top: 10px; padding: 13px; border: 1px solid rgba(255,255,255,.65); border-radius: 14px; background: linear-gradient(115deg, rgba(255,255,255,.73), rgba(218,233,255,.69)); }
+    #about .education-item:first-of-type { padding-top: 13px; }
+    #about .education-item:nth-of-type(3) { background: linear-gradient(115deg, rgba(255,255,255,.72), rgba(246,220,251,.78)); }
+    #about .edu-icon { background: linear-gradient(145deg, #8fd8ff, #b7a6ff 65%, #e6a7de); color: #fff; box-shadow: 0 5px 13px rgba(90,93,177,.18); }
+    .skills { gap: 11px; }
+    .chip { border: 1px solid rgba(255,255,255,.8); color: #173c79; background: linear-gradient(135deg, #bceaff, #c8d6ff); box-shadow: 0 5px 13px rgba(75,101,181,.15); font-weight: 650; transition: transform .18s ease, box-shadow .18s ease, filter .18s ease; }
+    .chip:nth-child(3n + 2) { color: #603b91; background: linear-gradient(135deg, #dfcaff, #f2cbed); }
+    .chip:nth-child(3n) { color: #1b587d; background: linear-gradient(135deg, #b9f0f1, #c6dcff); }
+    .chip:hover { transform: translateY(-4px) scale(1.045); filter: saturate(1.12); box-shadow: 0 10px 20px rgba(75,84,162,.22); }
   </style>
 </head>
 <body>
@@ -485,6 +501,7 @@
   </script>
 </body>
 </html>
+
 
 
 
